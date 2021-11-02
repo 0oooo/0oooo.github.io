@@ -51,7 +51,7 @@ html, body{
   animation: rotating 10s linear infinite;
 }
 
-@keyframe bodyShrink {
+@keyframes bodyShrink {
     0%{
         transform: scale(90%, 90%);
     }
