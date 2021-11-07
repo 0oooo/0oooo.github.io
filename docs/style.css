@@ -3,6 +3,10 @@ html, body{
   	background-color: #E7E0C9; 
 }
 
+h1{
+    color: #11324D;
+}
+
 .container{
 	display: flex; 
 	justify-content: center; 
@@ -19,63 +23,79 @@ html, body{
 	flex-direction: column; 
 }
 
+/* ----------------------- BONHOMME STYLING ------------------ */
+
+.bonhomme-container{
+    position: relative; 
+}
+
+.bonhomme{
+    position: absolute; 
+}
+
 @keyframes rotating {
   0% {
-    -ms-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
     transform: rotate(-15deg);
   }
   50% {
-    -ms-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
     transform: rotate(15deg);
   }
-
   100% {
-   -ms-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
     transform: rotate(-15deg);
   }
 }
 .rotating-head {
-  -webkit-animation: rotating 10s linear infinite;
-  -moz-animation: rotating 10s linear infinite;
-  -ms-animation: rotating 10s linear infinite;
-  -o-animation: rotating 10s linear infinite;
-  animation: rotating 10s linear infinite;
+    top: 0; 
+    animation: rotating 10s linear infinite;
 }
 
 @keyframes bodyShrink {
     0%{
         transform: scale(90%, 90%);
     }
-
     25%{
-        transform: scale(60%, 80%);
+        transform: scale(90%, 85%);
     }
-    
     50%{
-        transform: scale(60%, 60%);
+        transform: scale(85%, 80%);
     }
-
     75%{
-        transform: scale(80%, 50%);
+        transform: scale(85%, 85%);
     }
-
     100%{
-        transform: scale(80%, 80%);
+        transform: scale(90%, 90%);
     }
 }
 
 .shrink-body{
     animation: bodyShrink 8s linear infinite;
+    top: 230px;
+    left: 20px; 
 }
-h1{
-color: #6B7AA1;
+
+@keyframes movingArm {
+    0%{
+        transform: rotate(-20deg);
+        left: -200px;
+        top: -70px;
+    }
+
+    50%{
+        left: -256px;
+        top: -45px;
+        transform: rotate(-36deg);
+    }
 }
+
+.moving-arm {
+    left: -200px;
+    top: -70px;
+    transform: rotate(-20deg);
+    animation: movingArm 8s linear infinite; 
+}
+
+svg{
+    stroke: #11324D;
+ }
+
+/* ----------------------- END OF BONHOMME STYLING ------------------ */
