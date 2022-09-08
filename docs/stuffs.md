@@ -1,5 +1,7 @@
 # 08 Septembre 2022
 
+## Console.log
+
 This [article](https://javascript.plainenglish.io/its-2022-please-don-t-just-use-console-log-anymore-217638337c7d) made me want to try to improve my console logging. 
 - Use an object to have more details info about what you are logging `console.log({age, name, food, paint})` will give you the name of the variables and the value you are printing!
 - Using warn or error will show in the console so if you have a lot of logs and want to get the attention: `console.warn()` or `console.error()` 
@@ -13,3 +15,9 @@ console.timeEnd()
 ```
 
 - And finally if you have a big object to log? `console.table()` makes it pretteeeeh
+
+## Colleague frustration (but actually it's me the colleague)
+
+It's hard to find the balance between being helped and being advised stuffs you already know. Especially when you explained the problem. However I understand that it takes some brain power to understand what someone is saying. And at the end, not helping me the way I wanted still - tought me something - made me find the origin of the pb solve alone. 
+Also felt bad about deploying and leaving. Do not do that. Deployment before lunch. Or before one hour leaving the job.
+And if you come back from holidays, don't get upset people have taking your tasks. 
