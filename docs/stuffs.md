@@ -46,3 +46,11 @@ This week I am in charge of little but important work.
 I am changing the type of a flag, which let us turn off ad and 'push to subscribe' on articles that moves british (I don't know if you've seen, the queen is dead, long live the queen and please subscribe to see more about that news). 
 I am also changing one of the layout of the news for it to be in mourning (no longer mourn for me when I am dead). So now we can have a big photo and then text under, all that in a black background. 
 Nothing much but touches new stuffs and it's very important for the news to come so I feel happy. 
+
+
+# 11 October 2022
+
+## To the importance of reviewing other people's work
+
+Like that you can add lots of comments and they can't merge their work and you are the first to merge and THEY have to deal with 
+5 merge and having to solve the merge conflicts.
